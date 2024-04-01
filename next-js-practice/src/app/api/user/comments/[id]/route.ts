@@ -12,3 +12,18 @@ export async function PATCH(req: Request, { params }: { params: { id: string } }
     comments[index].comments = text;
     return Response.json(comments[index]);
 }
+
+export async function DELETE(
+    req: Request,
+    { params }: { params: { id: string } }
+) {
+    const index = comments.findIndex(item => item.id === Number(params.id));
+    const deletedComment = comments[index];
+    comments.splice(index, 1);
+    if (index !== -1) {
+        return Response.json(deletedComment);
+    }
+    else {
+        return new Response('No Data to Delete!');
+    }
+}
