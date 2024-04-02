@@ -1,6 +1,12 @@
+import { redirect } from "next/navigation";
 import { comments } from "../comments";
 
 export async function GET(req: Request, { params }: { params: { id: string } }) {
+
+    if (Number(params.id) > comments.length) {
+        redirect('/api/user/comments');
+    }
+
     const comment = comments.find((item) => item.id === Number(params.id));
     return Response.json(comment);
 }
