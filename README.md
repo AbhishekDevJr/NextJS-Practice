@@ -11,6 +11,7 @@ Routing Using App Router:-
 8. Parallel Intercepting Routes
 
 Server Routing Using Route-Handlers
+1. GET Methods using route-handlers route.ts
 
 File Convention of NextJS
 1. page.tsx
