@@ -12,6 +12,7 @@ Routing Using App Router:-
 
 Server Routing Using Route-Handlers
 1. GET Methods using route-handlers route.ts
+2. POST Methods using Route-handlers route.ts
 
 File Convention of NextJS
 1. page.tsx
