@@ -23,3 +23,5 @@ File Convention of NextJS
 5. loading.tsx
 6. error.tsx
 
+Server Components Vs Client Components & Component Composition
+
