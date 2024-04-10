@@ -24,4 +24,5 @@ File Convention of NextJS
 6. error.tsx
 
 Server Components Vs Client Components & Component Composition
+Client Components are once rendered on the Server and then subsequent renders are performed on the client.
 
