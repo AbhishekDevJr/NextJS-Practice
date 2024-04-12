@@ -27,3 +27,5 @@ Server Components Vs Client Components & Component Composition
 Client Components are once rendered on the Server and then subsequent renders are performed on the client.
 Server Componetn are rendered on the Server & then the rendered html file is sent to the client where all the interactivity is added which is known as hydration.
 
+CSR Vs SSR
+
