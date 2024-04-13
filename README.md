@@ -14,6 +14,7 @@ Server Routing Using Route-Handlers
 1. GET Methods using route-handlers route.ts
 2. POST Methods using Route-handlers route.ts
 3. PATCH Methods using Route-handlers route.ts
+4. DELETE Methods using Route-handlers route.ts
 
 File Convention of NextJS
 1. page.tsx
@@ -28,4 +29,5 @@ Client Components are once rendered on the Server and then subsequent renders ar
 Server Componetn are rendered on the Server & then the rendered html file is sent to the client where all the interactivity is added which is known as hydration.
 
 CSR Vs SSR
+
 
