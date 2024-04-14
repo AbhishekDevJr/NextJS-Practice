@@ -15,6 +15,7 @@ Server Routing Using Route-Handlers
 2. POST Methods using Route-handlers route.ts
 3. PATCH Methods using Route-handlers route.ts
 4. DELETE Methods using Route-handlers route.ts
+5. PUT Methods using Route-handlers route.ts
 
 File Convention of NextJS
 1. page.tsx
